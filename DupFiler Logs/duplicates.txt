@@ -1,0 +1,15 @@
+[Apr-17-2016 22:20:07] Duplicates:
+				Master: "./master\file.txt"
+				Slave:  "./slave\file.txt
+
+[Apr-17-2016 22:20:07] Duplicates:
+				Master: "./master\file.txt"
+				Slave:  "./slave\slavesubfolder\somefile.txt
+
+[Apr-17-2016 22:20:07] Duplicates:
+				Master: "./master\file2.txt"
+				Slave:  "./slave\file2dupRen.txt
+
+[Apr-17-2016 22:20:07] Duplicate file: "./slave\file.txt" moved to: "./master\file.txt"
+[Apr-17-2016 22:20:07] Duplicate file: "./slave\slavesubfolder\somefile.txt" moved to: "./master\file.txt"
+[Apr-17-2016 22:20:07] Duplicate file: "./slave\file2dupRen.txt" moved to: "./master\file2.txt"

@@ -1,0 +1,17 @@
+[Apr-17-2016 22:20:07] ------------ Main Log Begin ------------
+
+[Apr-17-2016 22:20:07] Information: Folder: "DupFiler Logs" already exists.
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\master\New folder\file.txt", deleting "./master\exclude2\old master slave\master\New folder\file.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\master\file.txt", deleting "./master\exclude2\old master slave\master\file.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\backups\file2.txt", deleting "./master\exclude2\backups\file2.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\slave\file.txt", deleting "./master\exclude2\old master slave\slave\file.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\slave\file4.txt", deleting "./master\exclude2\old master slave\slave\file4.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\backups\file.txt", deleting "./master\exclude2\backups\file.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\master\file2.txt", deleting "./master\exclude2\old master slave\master\file2.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\backups\file3.txt", deleting "./master\exclude2\backups\file3.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\master\file3.txt", deleting "./master\exclude2\old master slave\master\file3.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old files in here.txt", deleting "./master\exclude2\old files in here.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\slave\slavesubfolder\somefile.txt", deleting "./master\exclude2\old master slave\slave\slavesubfolder\somefile.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\slave\file2dupRen.txt", deleting "./master\exclude2\old master slave\slave\file2dupRen.txt" from master dict
+[Apr-17-2016 22:20:07] Information: Key Error when "./master\exclude2\" in "./master\exclude2\old master slave\master\New folder\renfile.txt", deleting "./master\exclude2\old master slave\master\New folder\renfile.txt" from master dict
+[Apr-17-2016 22:20:07] Information: No duplicate files found on master. Proceeding with requested operations.

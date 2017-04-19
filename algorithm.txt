@@ -1,0 +1,55 @@
+So duplicate files present across 2 drives
+choose 1 master, 1 slave
+In the end, you want all the duplicate files on master, and only leftovers on slave (or some other layout)
+
+Assign master, slave
+
+hash all files on both drives
+	- look for folders of all same hash?
+
+(remove duplicates within slave first? copy first, then move both to master -- this will have space issues.  Set a threshold and ask user?)
+	msgbox( a large file was found, how to proceed?)
+
+compare lists, see what matches, see what dirs match
+get dirs
+
+copy/move to dirs.  If name same, overwrite, if not, copy but note in log or make special log just for this
+
+
+Things to consider:
+permissions
+check to make sure actually copies to right dir with some kind of test heirarchy
+maybe use thumbdrive to check drive letter shit
+	-use two thumbdrives
+
+might need to play wiht strings for a bit to learn how to assemble lists.  must be fluent in this to fuck with whole HDD of data
+
+put a log or SOMETHING to know what the damn thing is doing with the data.  ideally log and print status.
+	- log must include filename, action (cp/mv), srcdir, destdir, timestamp
+try putting ini/systme shit to see if it throws weird error
+	- if thrown, ignore and log in warnings.log
+
+the tree structure might be difficult....
+
+ERROR ON THE SIDE OF COPYING TOO  MUCH SHIT
+
+but this is probably the best way to go about this at this point
+
+
+The test:
+make file structure on two thumbdrives
+multiple folders, different filenames
+
+different name, same hash
+same name, same hash
+foldername1 of filehash1, foldername2 of filehash1
+large files
+system files
+
+
+It should check for same name, diff hash, as possible updated/old versions of an item
+- what about file size?
+- move to folder on master
+
+
+RUN ON ITS OWN IN CASE SPYDER SHITS THE BED MID-OPERATION
